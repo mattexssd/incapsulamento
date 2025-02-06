@@ -46,7 +46,7 @@ IpHeader creaDatagram() {
     IpHeader header;
     header.versione;
     header.headerLength;
-    header.tipoServizio;
+    header.typeOfService;
     header.totalLenght;
     header.identificatore;
     header.flag;
