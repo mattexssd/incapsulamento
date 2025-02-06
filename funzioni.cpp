@@ -51,7 +51,7 @@ IpHeader creaDatagram() {
     header.identificatore;
     header.flag;
     header.offset;
-    header.ttl;
+    header.timeToLive;
     header.protocollo;
     header.checksum;
     header.indirizzoMit;
