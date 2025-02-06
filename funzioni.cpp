@@ -58,13 +58,3 @@ IpHeader creaDatagram() {
     header.indirizzoDest;
     return header;
 }
-int main() {
-    string input;
-    cin>>input;
-    string output = stringToBin(input);
-    string binario;
-    cout << "Stringa originale: " << input << endl;
-    cout << "Stringa in binario: " << output << endl;
-    leggiMessaggio();
-    scritturaMessaggio(binario);
-}
