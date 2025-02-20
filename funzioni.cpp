@@ -11,11 +11,14 @@ string charToBin(char c) {
 }
 
 string stringToBin(const string& str) {
-    string binary;
-    for (char c : str) {
-        binary += charToBin(c);
+    string binario="";
+    char c;
+    for(int i;i<str.lenght();i++){
+        c=linea[i];
+        binario+=bitset<8>(c).to_string()+" "; 
     }
-    return binary;
+    scritturaMessaggio(binario);
+    return binario;
 }
 
 string leggiMessaggio(){
