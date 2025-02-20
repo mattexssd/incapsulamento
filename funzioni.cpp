@@ -13,7 +13,7 @@ string charToBin(char c) {
 string stringToBin(const string& str) {
     string binary;
     for (char c : str) {
-        binary += charToBin(c) + " ";
+        binary += charToBin(c);
     }
     return binary;
 }
